@@ -21,4 +21,4 @@ const PsychologistSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
-export default mongoose.model("Job", JobSchema);
+export default mongoose.model("Psychologist", PsychologistSchema);
